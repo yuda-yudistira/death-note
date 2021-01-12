@@ -1,0 +1,208 @@
+/* navbar */
+.navbar {
+	opacity: 1;
+	width: 95%;
+	box-shadow: 0px 1px 3px #444;
+}
+.navbar-brand {
+	font-family: pirata one;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #666;
+}
+.nav-link {
+	font-family: viga;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px #666;
+}
+.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 2px solid snow;
+	margin-top: -3px;
+}
+.navbar .tombol {
+	box-shadow: 0px 1px 3px #666;
+	text-shadow: 1px 1px 1px #eee;
+}
+.tombol {
+	color: indianred;
+	font-family: viga;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px #999;
+}
+
+
+
+/* jumbotron */
+.jumbotron {
+	height: 600px;
+	background-image: url(img/light1.jpg);
+	background-size: cover;
+	background-position: -280px 30px;
+	margin-bottom: 0px;
+}
+.jumbotron h1 {
+	font-family: fraunces;
+	font-size: 33px;
+	margin-top: 100px;
+}
+.jumbotron span {
+	text-shadow: 1px 1px 5px crimson;
+}
+.jumbotron p {
+	margin-top: 100px;
+	margin-bottom: 0px;
+	/*box-shadow: 1px 1px 1px snow;*/
+}
+
+
+
+/* info panel */
+.panel {
+	background-image: linear-gradient(orange, crimson);
+}
+.panel .horizon {
+	border: 2px solid black;
+	margin-top: 0px;
+	width: 1137px;
+}
+.info-panel {
+	background-color: white;
+	box-shadow: 0px 3px 20px grey;
+	margin-top: -80px;
+	border-radius: 12px;
+}
+.info-panel-2 {
+	margin: 30px 0;
+}
+.panel img {
+	width: 100px;
+}
+.info-panel p {
+	color: #acacac;
+}
+
+
+
+/* soundtrack */
+.soundtrack {
+	background-image: linear-gradient(crimson, crimson, orange);
+}
+.soundtrack .horizon {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid darkmagenta;
+}
+.soundtrack h2 {
+	font-weight: 200;
+}
+.soundtrack h4 {
+	font-weight: 500;
+	font-family: fraunces;
+}
+.soundtrack li {
+	color: #acacac;
+}
+.soundtrack .row {
+	margin-bottom: 200px;
+}
+
+
+
+
+/* gallery */
+.gallery {
+	background-image: linear-gradient(orange, crimson, crimson, crimson)
+}
+.gallery .container {
+	background-color: darkmagenta;
+}
+.gallery h2 {
+	/*font-family: fraunces;*/
+	font-weight: 200;
+	text-transform: uppercase;
+	color: snow;
+}
+hr {
+	border-bottom: 1px solid snow;
+}
+.gallery h2 {
+	text-shadow: 1px 5px 10px yellow;
+}
+.gallery img {
+	height: 200px;
+	width: 350px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 30px #999;
+}
+footer {
+	background-color: salmon;
+	height: 100px;
+}
+
+
+
+/* footer */
+.footer {
+	margin-top: -17px;
+	background-color: crimson;
+}
+.footer p {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-size: 36px;
+	color: orange;
+	font-family: hachi maru pop;
+	font-weight: 200;
+	text-shadow: 0px 0px 3px red; 
+}
+
+
+
+/* utility */
+h2 {
+	margin-bottom: 50px;
+	margin-top: 200px;
+}
+.jumbotron, .panel, .gallery, .soundtrack {
+	background-color: crimson;
+}
+.soundtrack .container, .panel .container {
+	background-color: snow;
+}
+.horizon {
+	width: 1140px;
+	margin-left: -15px;
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+	/*.navbar-brand {
+		text-shadow: 0px 0px 0px white;
+	}*/
+	.nav-link {
+		text-transform: uppercase;
+	}
+	.navbar .tombol {
+	box-shadow: 0px 0px 3px #aaa;
+	}
+	.jumbotron {
+		background-position: 0 0;
+	}
+	.jumbotron h1 {
+		font-size: 55px;	
+		margin-top: 30px;
+	}
+	.jumbotron span {
+	text-shadow: 1px 1px 10px snow;
+	}
+	.jumbotron p {
+		box-shadow: 0px 0px 30px snow;
+	}
+	.gallery img {
+		width: 300px;
+		height: 150px;
+	}
+}
